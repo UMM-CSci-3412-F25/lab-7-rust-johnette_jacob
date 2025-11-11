@@ -142,6 +142,18 @@ accent. We leave addressing that for another day.
 ## Palindromes
 Please recall the C version of [palindromes](https://github.com/UMM-CSci-Systems/C-strings-and-memory-management?tab=readme-ov-file#fixing-palindromes) and start writing a Rust version of palindromes that uses a similar reverse function. Please run your Rust code and submit both the code and the screenshots of the results.
 
+### Fixing palindromes
+
+Look back to the previous lab written in C code to refresh your memory about 
+how this worked in C. In the `palindrome` directory you will write code in Rust 
+to determine if a string is a palindrome (you can either create `palindrome.rs` or
+write the code in `main.rs` in the palindrome directory. Your code will check for palindromes 
+and (instead of doing the more obvious thing of returning a boolean) return the string
+"Yes" or "No" (like the code in the C Strings and Memory Management lab). 
+You should run the program with a variety of input strings
+to test that the `palindrome` function behaves appropriately on a variety
+of examples.
+
 ## Creating memory leaks in Rust (Extra Credit)
 Will memory-safe programming language Rust have a memory leak issue? This task aims to motivate students to [create memory leaks by making cycles with reference counting](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html). Please run your Rust code and submit both the code and the screenshots of the results.
 
