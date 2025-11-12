@@ -18,3 +18,7 @@ path = "disemvowel/main.rs"
 [[bin]]
 name = "palindrome"
 path = "palindrome/main.rs"
+
+[[bin]]
+name = "creating_a_reference_cycle"
+path = "Creating_a_Reference_Cycle/creating_a_reference_cycle.rs"
